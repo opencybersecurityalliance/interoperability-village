@@ -1,121 +1,107 @@
-# Interoperability Village sub-project
 
-
-**Note:** This template is provided to give you a good idea about the kind of information you should include in a README.md file as a best practice. You know your project inside-out. Write your readme file for someone who doesn't know anything about it. What do you want people to know about your project who are just coming across it for the first time? OASIS Staff are happy to collaborate with you as well. Further README inspiration can be found [here](https://www.makeareadme.com/) and [here](https://github.com/hackergrrl/art-of-readme#readme).
-
-You may copy and edit this template as you see fit for your project and your community.
-
-Table of contents
------------------
-
-* [Project Logo](#project-logo) (optional)
-* [Project Title](#project-title)
-* [Badges](#badges) (optional)
-* [Introduction](#introduction)
-* [Getting Started](#installation)
-* [Installation](#installion)
-* [How to run tests](#how-to-run-tests)(optional)
-* [Deployment](#deployment)
-* [Built With](#built-with)
-* [Contributing](#contributing)
-* [Versioning](#versioning)
-* [Authors and Maintainers](#authors-and-maintainers)
-* [Support](#support)
-* [Join us on Slack](#join-us-on-slack) (optional)
-* [License](#license)
-* [Acknowledgments](#acknowledgements) (optional)
-
-# Project Logo
-If available, add project logo.
-
-# Project Title
-
-One Paragraph of project description goes here. Include the copy: "<PROJECT NAME> is an [OASIS Open Project](https://oasis-open-projects.org/)"
-
-## Badges
-
-Using badges is optional, but they are a nice way to show some key facts and stats about your project at a glance. There are badges for all kinds of things relating to your repository, e.g. to show the license you're using, the programming language, the number of forks, or a CI badge to show build/test status. Be mindful not to use too many badges. You can use [Shields](http://shields.io/) to add some to your README. Many services also have instructions for adding a badge. Check out the README of the Open Cybersecurity Alliance project [Kestrel](https://github.com/opencybersecurityalliance/kestrel-lang) to see badges in action.
+# OCA Interoperability Village
 
 ## Introduction
 
-* State what problem(s) your project solves.
-* Note its development status.
-* List the most useful/innovative/noteworthy features.
-* Note and briefly describe any key concepts (technical,  philosophical, or both) important to the user’s understanding.
-* Link to any supplementary blog posts or project main pages.
-* Compare/contrast your project with other, similar projects so the user knows how it is different from those projects.
-* Highlight the technical concepts that your project demonstrates or supports. Keep it very brief.
-* If possible, include screenshots and demo videos.
+The cybersecurity landscape's constant evolution calls for robust, dynamic solutions that enable seamless interoperability between various tools and frameworks. The cybersecurity field is increasingly complex, necessitating a dedicated platform for interoperability testing of diverse tools and frameworks. The existence of a persistent, community-driven Interoperability Village lets us incrementally build on our prior successes and extend and maintain integrations.
 
-## Getting Started
+A centrally provisioned, distributed, interoperability lab lets organizations participate without the constraints of extending their internal infrastructure and data to external parties. Without a neutral decoupled space for testing interoperability, organizations will continue to operate in silos which will prevent progress. An interoperability lab will significantly increase the speed at which testing can occur, leading to faster results.
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+The Interoperability Village meets this critical need, fostering collaboration and shared learning among OCA stakeholders, and contributing to enhanced cybersecurity interoperability. This approach will also strengthen standards development as feedback derived from concrete implementations and interoperability testing can provide valuable insights and recommendations.
 
-If applicable, list here what is need to install the software and how to install them. Also list any dependencies, if applicable.
+## Project Overview
 
+The  Interoperbility Village <Interoperability Village> is an [OASIS Open Project](https://oasis-open-projects.org/) that facilitates the core objectives of the [OCA Cyber Automation Sub Project](https://opencybersecurityalliance.org/casp/). The OCA CASP  is a forum where products from all vendors, researchers, and software publishers can freely exchange information, insights, and reference implementations via commonly developed code and tooling, using mutually agreed upon technologies, specifications, and procedures.
 
-### Installation
+To further these objectives, we have established the **Interoperability Village** - a dynamic distributed architecture that enables interoperability testing between between a diverse set of stakeholders.
 
-A step by step series of examples that tell you how to get a development env running
+### Project Use Case 
+The 'Interoperability Village' shall act as a testing ground for stakeholders of the OCA to perform
+comprehensive interoperability testing between OASIS Open Projects', Open Source, and Commercial cybersecurity tools and frameworks. The village will be a persistent cloud-based infrastructure funded by sponsors and run using volunteer technical resources.  
 
-Say what the step will be
+* It provides an interoperabiility environment that is solated from stakeholder internal development, testing, and production systems/data where elements can be more readily provisioned and interconnected outside of the requisite internal controls.  
 
-```
-Give the example
-```
+* This isolation from internal assets will empower rapid prototyping and iterations outside of formal internal processes, procedures, and policies controlling internal assets.
 
-And repeat
+* The ability to persist test data, functional elements, and integration progress to date will allow us to focus on next steps vs. re-creating same to re-test.
+* The ability to quickly 'lash-up' one-off, ephemeral 'Villages' facilitates rapid protyping and ideation.
 
-```
-until finished
-```
+### Core Objectives
+The core objectives of this architecture are:
 
-End with an example of getting some data out of the system or using it for a little demo
-
-## How to run tests
-
-Explain how to run the automated tests for this system
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-List any libraries, frameworks or other projects that your code might be using
+* Persistence
+* Flexibility
+* Low cost (centrally and individual particpants)
+* Minimal support staff requirements
+* Centralized provisioning
+* Highly distributed elements
+* Relative simplicity 
+* Agility
+* Risk comensurate security architecure
+* On-demand Lash-Ups/Tear-Downs
+* Multiple concurrent topologies 
 
 
-## Contributing
+## Mesh Architecture
 
-Add a brief explanation of what kind of contributions you are looking for and what your requirements are for accepting them. Add a link to [CONTRIBUTING.md](link to your contributing.md file) and a link to [CODE_OF_CONDUCT](link to your code_of_conduct.md file).
+The foundational architecture and concepts are based on [MeshCentral](https://meshcentral.com/) authored by [Ylian Saint-Hilaire](linkedin.com/in/ylianst).  Highly effective documentation and videos by Ylian are availble - Make use of them!
+
+MeshCentral delivers all of the functional elements required to meet the above core objectives.
+
+### AWS Centralized Provisioning
+The Interoperability Village "Town Council" and "Zoning Commision" operate on a centralized instatiation of MeshCentral on AWS.  The minimal cloud footprint of MeshCentral server minimizes costs. 
+
+The "Town Council" will operate at the policy level and the "Zoning Commission" will serve to approve the creation of a new "Neighborhood" and additional of "Huts"
+
+* Participants request the creation of a "Neighborhood" and the "Huts" you want to build. You provide your external public facing IP address for access to IOV MeshCentral and we provide you with an Agent Provisioning script that you run on each "Hut" you wish to add to your "Neighborhood".
+
+### Building your 'Huts'
+
+Your 'Huts' can be constructed using an a $80 Raspberry PI or a cluster of $500K servers. You want to bring a cluster of NVDIA RTX Blackwells? -- Welcome To The Party!
+
+You provide the IP ACL source address for your external facing interfaces and we provide an Agent that you deploy on as many systems as you wish.
+
+#### Raspberry PI Clusters
+We have had great success with the build-out of Raspberry Pi 5 clusters using 16GB Pi5s, NVMe SSDs, and 5TB SATA drives.  We have successfully deployed fully functiuonal instances of [MISP](https://www.misp-project.org/), [OpenCTI](https://filigran.io/solutions/open-cti/), [OpenBAS](https://filigran.io/solutions/open-bas/), [Elastic Stack](https://www.elastic.co/blog/getting-started-with-the-elastic-stack-and-docker-compose), and dozens of [Connectors](https://docs.opencti.io/latest/deployment/connectors/) using Docker containers.
+
+This methodolgy empowers the automated construction of fully functional distributed instantions of all the elements you need to model and test.  Need to add a new 'shiny object'?  If it has a Docker container you can add it to your lab! Obviously, instantiations need to be sized to demands:  if you want to test full packet-capture, deep-packet-inspection, and flow-analysis at 10GB
+
+For those wishing to duplicate our successes we will provide software and hadware bills-of materials (HBOM/SBOM)that you can copy or adjust for your needs.  We will also provide forums for the collection and sharing of SBOMs/HBOMs, IaaS, SaaS, DevOps, SecOps.  The core Team will be focused and evangelizing Docker, Docker Swarm, Ansible, and MeshCentral compatible architectures
+
+You can just as easily deploy your frameworks on cloud (AWS, Google, Azure, IBM. Oracle), on-prermise servers/containers, home labs, etc.   You provide your perimter Public IP and we provide a script to deploy the MeshCentral Agent on each 'Hut' in your 'Neighborhood'
 
 
-## Authors and Maintainers
-  
-List authors and maintainers here, e.g.:
-* 
-
-And/or:
-"See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project."
-
-## Support
-Where can people ask for help: this can be any combination of an issue tracker, Slack, a chat room, an email address, etc.
-
-## Join us on Slack
-If your project has a Slack, add it here, eg. "Click here and fill out the form to receive an invite to the [Project name] slack instance, to meet the community and learn more about how you can engage."[add link to Slack]
+### MeshCentral Resources
+(https://meshcentral.com/downloads.html)
 
 ## License
 
 This project is licensed under the Apache 2.0 License - see the [LICENSE.md](./LICENSE.md) file for details
 
-(You can find the list of licenses approved for OASIS Open Projects [here](https://www.oasis-open.org/policies-guidelines/open-projects-process/#repository-specification-licenses).)
+#### Methods and strategies 
+To ensure the success of the 'Interoperability Village,' we will implement the following strategy:
+
+* Stakeholder Engagement: Continuous engagement with OCA stakeholders to understand their needs and incorporate their feedback into the project.
+
+* Sponsor Outreach: Active outreach to potential sponsors, showcasing the value proposition of the 'Interoperability Village' and how their contribution can make a significant impact.
+
+
+* Volunteer Recruitment: Harnessing the expertise of the cybersecurity community through a call for volunteer technical resources. The recruitment process will focus on the skills necessary for the project.
+
+
+* Progress Tracking: Regular updates to the OCA Leadership Board and sponsors about the project's progress, maintaining transparency and trust.
+
+
+* Quarterly Interoperability Plugfests:  the OCA CASP working group holds quarterly interoperability conferences that brings together practitioners and stakeholders to establish and demonstrate interoperability of tools and framework built using cybersecurity and related data standards.
+
+
+### List the current project maintainers, and their Github user IDs
+
+Patrick Maroney  packet-rat  
 
 ## Acknowledgments
 
-Add a Hat tip to anyone whose code was used or projects that inspire your work etc.
+Add a Hatlo Hat tip to anyone whose code was used or projects that inspire your work etc.
+
 
 
