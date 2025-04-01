@@ -98,9 +98,4 @@ To ensure the success of the 'Interoperability Village,' we will implement the f
 
 Patrick Maroney  packet-rat  
 
-## Acknowledgments
-
-Add a Hatlo Hat tip to anyone whose code was used or projects that inspire your work etc.
-
-
 
