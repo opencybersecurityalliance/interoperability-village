@@ -11,13 +11,12 @@ The Interoperability Village meets this critical need, fostering collaboration a
 
 ## Project Overview
 
-The  Interoperability Village <Interoperability Village> is an [OASIS Open Project](https://oasis-open-projects.org/) that facilitates the core objectives of the [OCA Cyber Automation Sub Project](https://opencybersecurityalliance.org/casp/). The OCA CASP  is a forum where products from all vendors, researchers, and software publishers can freely exchange information, insights, and reference implementations via commonly developed code and tooling, using mutually agreed upon technologies, specifications, and procedures.
+The  Interoperability Village <Interoperability Village> is a sub-project of [Open Cybersecurity Alliance (OCA)](https://opencybersecurityalliance.org/) that facilitates the core objectives of the [OCA Cyber Automation Sub Project](https://opencybersecurityalliance.org/casp/). The OCA CASP is a forum where products from all vendors, researchers, and software publishers can freely exchange information, insights, and reference implementations via commonly developed code and tooling, using mutually agreed upon technologies, specifications, and procedures.
 
 To further these objectives, we have established the **Interoperability Village** - a dynamic distributed architecture that enables interoperability testing between between a diverse set of stakeholders.
 
 ### Project Use Case 
-The 'Interoperability Village' shall act as a testing ground for stakeholders of the OCA to perform
-comprehensive interoperability testing between OASIS Open Projects', Open Source, and Commercial cybersecurity tools and frameworks. The village will be a persistent cloud-based infrastructure funded by sponsors and run using volunteer technical resources.  
+The 'Interoperability Village' shall act as a testing ground for stakeholders of the OCA to perform comprehensive interoperability testing between OASIS Open Projects', Open Source, and Commercial cybersecurity tools and frameworks. The village will be a persistent cloud-based infrastructure funded by sponsors and run using volunteer technical resources.  
 
 * It provides an interoperabiility environment that is solated from stakeholder internal development, testing, and production systems/data where elements can be more readily provisioned and interconnected outside of the requisite internal controls.  
 
