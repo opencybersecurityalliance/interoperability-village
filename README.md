@@ -11,7 +11,7 @@ The Interoperability Village meets this critical need, fostering collaboration a
 
 ## Project Overview
 
-The  Interoperbility Village <Interoperability Village> is an [OASIS Open Project](https://oasis-open-projects.org/) that facilitates the core objectives of the [OCA Cyber Automation Sub Project](https://opencybersecurityalliance.org/casp/). The OCA CASP  is a forum where products from all vendors, researchers, and software publishers can freely exchange information, insights, and reference implementations via commonly developed code and tooling, using mutually agreed upon technologies, specifications, and procedures.
+The  Interoperability Village <Interoperability Village> is an [OASIS Open Project](https://oasis-open-projects.org/) that facilitates the core objectives of the [OCA Cyber Automation Sub Project](https://opencybersecurityalliance.org/casp/). The OCA CASP  is a forum where products from all vendors, researchers, and software publishers can freely exchange information, insights, and reference implementations via commonly developed code and tooling, using mutually agreed upon technologies, specifications, and procedures.
 
 To further these objectives, we have established the **Interoperability Village** - a dynamic distributed architecture that enables interoperability testing between between a diverse set of stakeholders.
 
