@@ -1,5 +1,9 @@
 
 # OCA Interoperability Village
+<div align="left">
+  <img src="artwork/Village-campfire.png" alt="Village" width="40%">
+</div>
+
 
 ## Introduction
 
@@ -43,16 +47,23 @@ The core objectives of this architecture are:
 
 ## Mesh Architecture
 
-The foundational architecture and concepts are based on [MeshCentral](https://meshcentral.com/) authored by [Ylian Saint-Hilaire](linkedin.com/in/ylianst).  Highly effective documentation and videos by Ylian are availble - Make use of them!
+The IOV foundational architecture and concepts are based on [MeshCentral](https://meshcentral.com/) authored by [Ylian Saint-Hilaire](linkedin.com/in/ylianst). MeshCentral delivers all of the functional elements required to meet the above core objectives.
 
-MeshCentral delivers all of the functional elements required to meet the above core objectives.
+<div align="left">
+  <img src="artwork/meshcentral%20top%20view.png" alt="Village" width="80%">
+</div>
 
 ### AWS Centralized Provisioning
 The Interoperability Village "Town Council" and "Zoning Commision" operate on a centralized instatiation of MeshCentral on AWS.  The minimal cloud footprint of MeshCentral server minimizes costs. 
 
+<div align="left">
+  <img src="artwork/AWS.png" alt="Village" width="80%">
+</div>
+
 The "Town Council" will operate at the policy level and the "Zoning Commission" will serve to approve the creation of a new "Neighborhood" and additional of "Huts"
 
 * Participants request the creation of a "Neighborhood" and the "Huts" you want to build. You provide your external public facing IP address for access to IOV MeshCentral and we provide you with an Agent Provisioning script that you run on each "Hut" you wish to add to your "Neighborhood".
+### IOV Villages
 
 ### Building your 'Huts'
 
