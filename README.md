@@ -17,15 +17,12 @@ The Interoperability Village meets this critical need, fostering collaboration a
 
 The  Interoperability Village <Interoperability Village> is a sub-project of [Open Cybersecurity Alliance (OCA)](https://opencybersecurityalliance.org/) that facilitates the core objectives of the [OCA Cyber Automation Sub Project](https://opencybersecurityalliance.org/casp/). The OCA CASP is a forum where products from all vendors, researchers, and software publishers can freely exchange information, insights, and reference implementations via commonly developed code and tooling, using mutually agreed upon technologies, specifications, and procedures.
 
-To further these objectives, we have established the **Interoperability Village** - a dynamic distributed architecture that enables interoperability testing between between a diverse set of stakeholders.
+To further these objectives, we have established the **Interoperability Village (IoV) ** - a dynamic distributed architecture that enables interoperability testing between between a diverse set of stakeholders.
 
 ### Project Use Case 
-The 'Interoperability Village' shall act as a testing ground for stakeholders of the OCA to perform comprehensive interoperability testing between OASIS Open Projects', Open Source, and Commercial cybersecurity tools and frameworks. The village will be a persistent cloud-based infrastructure funded by sponsors and run using volunteer technical resources.  
-
-* It provides an interoperabiility environment that is solated from stakeholder internal development, testing, and production systems/data where elements can be more readily provisioned and interconnected outside of the requisite internal controls.  
-
+The 'Interoperability Village' shall act as a testing ground for stakeholders of the OCA to perform comprehensive interoperability testing between OASIS Open Projects', Open Source, and Commercial cybersecurity tools and frameworks. The village will be a persistent distributed architecture funded/resourced by individual sponsors and centrally provisioned using volunteer technical resources.  
+* IoV provides an interoperabiility environment that is solated from stakeholder internal development, testing, and production systems/data where elements can be more readily provisioned and interconnected outside of the requisite internal controls.  
 * This isolation from internal assets will empower rapid prototyping and iterations outside of formal internal processes, procedures, and policies controlling internal assets.
-
 * The ability to persist test data, functional elements, and integration progress to date will allow us to focus on next steps vs. re-creating same to re-test.
 * The ability to quickly 'lash-up' one-off, ephemeral 'Villages' facilitates rapid protyping and ideation.
 
@@ -47,7 +44,7 @@ The core objectives of this architecture are:
 
 ## Mesh Architecture
 
-The IOV foundational architecture and concepts are based on [MeshCentral](https://meshcentral.com/) authored by [Ylian Saint-Hilaire](linkedin.com/in/ylianst). MeshCentral delivers all of the functional elements required to meet the above core objectives.
+The IoV foundational architecture and concepts are based on [MeshCentral](https://meshcentral.com/) authored by [Ylian Saint-Hilaire](linkedin.com/in/ylianst). MeshCentral delivers all of the functional elements required to meet the above core objectives.
 
 <div align="left">
   <img src="artwork/meshcentral%20top%20view.png" alt="Village" width="80%">
@@ -63,11 +60,14 @@ The Interoperability Village "Town Council" and "Zoning Commision" operate on a 
 The "Town Council" will operate at the policy level and the "Zoning Commission" will serve to approve the creation of a new "Neighborhood" and additional of "Huts"
 
 * Participants request the creation of a "Neighborhood" and the "Huts" you want to build. You provide your external public facing IP address for access to IOV MeshCentral and we provide you with an Agent Provisioning script that you run on each "Hut" you wish to add to your "Neighborhood".
-### IOV Villages
+### IoV Neighborhoods
+
+IoV **Neighborhoods** represent an participating member's collection of systems, containers, etc.  Some analagous concepts are an 'enclave', a 'subnet'
+
 
 ### Building your 'Huts'
 
-Your 'Huts' can be constructed using an a $80 Raspberry PI or a cluster of $500K servers. You want to bring a cluster of NVDIA RTX Blackwells? -- Welcome To The Party!
+Your "Neighborhood' consists of 'Huts' you provision, build, and manage.  'Huts'can be constructed using an a $80 Raspberry PI or a cluster of $500K servers. You want to bring a cluster of NVDIA RTX Blackwells? -- Welcome To The Party!
 
 You provide the IP ACL source address for your external facing interfaces and we provide an Agent that you deploy on as many systems as you wish.
 
