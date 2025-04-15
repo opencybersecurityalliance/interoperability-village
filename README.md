@@ -6,8 +6,6 @@
 
 > A distributed, community-driven lab for testing and proving interoperability across open, commercial, and emerging cybersecurity tools and frameworks.
 
-![Welcome to the Interoperability Village](A_digital_illustration_titled_%22Welcome_to_the_Inte.png)
-
 ---
 
 ## 🌐 Introduction
