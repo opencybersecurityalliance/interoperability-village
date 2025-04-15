@@ -137,7 +137,9 @@ Build your 'Huts', test your tools, and join a growing community shaping the fut
 
 ## 🤝 Join the Conversation
 
-Let’s build the future of cybersecurity—together.
+Let’s build the future of cybersecurity—together. You can join the OCA Interoperability Village mailing list by sending an empty email to [oca-interop-village+subscribe@lists.oasis-open-projects.org ](mailto:oca-interop-village+subscribe@lists.oasis-open-projects.org).
+
+You can join the OCA Slack [via this link](https://join.slack.com/t/open-cybersecurity/shared_invite/zt-1jsgt1053-oYsfBPXXChhbRO4JO5Xo1A). There is a #interoperability-village channel :).
 
 
 ### List the current project maintainers, and their Github user IDs
