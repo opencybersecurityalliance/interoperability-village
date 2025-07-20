@@ -2,51 +2,44 @@
   <img src="artwork/Village-campfire.png" alt="Village" width="40%">
 </div>
 
-# 🏘️ OCA Interoperability Village
+# 🏘️ OCA Interoperability Village (IoV)
+## 🌐 Introduction
 
-> A distributed, community-driven lab for testing and proving interoperability across open, commercial, and emerging cybersecurity tools and frameworks.
+In an era of increasingly complex security ecosystems, no single tool can stand alone. Interoperability is essential—and yet testing often happens in isolation, constrained by proprietary infrastructure and limited collaboration.  This project breaks down those silos
 
----
+Our mission: **enable real-world, hands-on interoperability testing** through a flexible, distributed, and community-supported lab architecture.
 
-Welcome to the **Interoperability Village**, an Open Cybersecurity Alliance (OCA) initiative. Our mission is to accelerate the adoption and interoperability of open cybersecurity standards by building a distributed testbed for tools, frameworks, and research prototypes.
-
----
-
-## 🌐 What is Interoperability Village?
-
-Interoperability Village is a **federated ecosystem of virtual test labs**—called **Neighborhoods**—interconnected over secure, decentralized virtual networks. Within each Neighborhood, participants can spin up modular environments called **Huts**, where individual tools and platforms are deployed, integrated, and tested together.
-
-We support OCA standards and beyond, including:
-
-- STIX 2.1 / TAXII
-- OpenC2
-- CACAO / MISP / Threat Bus
-- SBOMs (SPDX, CycloneDX)
-- OpenTelemetry, Kestrel, IoB, and more
-
----
-
-## 🚀 Project Overview
-
-The **Interoperability Village (IoV)** is a sub-project of the [Open Cybersecurity Alliance (OCA)](https://opencybersecurityalliance.org/), under the **Cyber Automation Sub-Project (CASP)**. It serves as a vendor-neutral playground for:
+ The IoV serves as a vendor-neutral playground for:
 
 - Open source tools  
 - Commercial cybersecurity frameworks  
 - Reference implementations of emerging standards  
 
-Our mission: **enable real-world, hands-on interoperability testing** through a flexible, distributed, and community-supported lab architecture.
+
+
+## 🌐 What is the Interoperability Village?
+
+The Interoperability Village is a federated ecosystem of virtual test labs—called **Neighborhoods**—interconnected over secure, decentralized virtual networks. Within each Neighborhood, participants can spin up modular environments called **Huts**, where individual tools and platforms are deployed, integrated, and tested together.
 
 ---
+
+## 🚀 Project Overview
+
+---
+
+The **Interoperability Village (IoV)** is a sub-project of the [Open Cybersecurity Alliance (OCA)](https://opencybersecurityalliance.org/), under the **Cyber Automation Sub-Project (CASP). 
+
+
 
 ## 🎯 Core Objectives
 
 - 🔁 **Persistence** – Retain knowledge, data, and tooling across iterations  
 - 🧩 **Flexibility** – Raspberry Pi to high-end clusters—build your lab your way  
 - 💸 **Low Cost** – Minimal infrastructure and support overhead  
-- ☁️ **Centrally Provisioned** – MeshCentral on AWS for global reach  
-- 🏗️ **Ephemeral Labs** – Spin up one-off "Villages" on demand  
+- ☁️ **Centrally Provisioned** – Headscale on AWS for global reach  
 - 🔐 **Risk-Commensurate Security** – Segmented, external-only access  
-- 🕸️ **Mesh Architecture** – Distributed, scalable, and resilient  
+- 🕸️ **Mesh Architecture** – Distributed, scalable, and resilient
+- - 🏗️ **Ephemeral Labs** – Along with persistent **Neighborhoods** and **Huts**, provide the capability to spin up one-off "**Villages*" on demand  
 
 ---
 
@@ -54,10 +47,19 @@ Our mission: **enable real-world, hands-on interoperability testing** through a 
 
 - Test integrations between **OASIS standards**, open-source, and commercial tools  
 - Develop and refine **reference implementations**  
-- Host **quarterly Plugfests** for live collaboration and demonstration  
+- Host regular **Plugfests** for live collaboration and demonstration  
 - Provide a **safe, isolated, disposable** testing environment for rapid prototyping  
 
 > ⚙️ *Build. Break. Iterate. Interoperate.*
+
+## 🧰 Core Use Cases
+
+- ✅ Validate tool interoperability in real-time
+- ✅ Run collaborative experiments with shared data models
+- ✅ Demonstrate threat intelligence sharing across platforms
+- ✅ Simulate attack chains across federated tools
+
+---
 
 ## 🧱 Architecture Overview
 
@@ -111,14 +113,7 @@ We've had excellent results using:
 
 ---
 
-## 🧰 Core Use Cases
 
-- ✅ Validate tool interoperability in real-time
-- ✅ Run collaborative experiments with shared data models
-- ✅ Demonstrate threat intelligence sharing across platforms
-- ✅ Simulate attack chains across federated tools
-
----
 
 ## 🛠️ How to Participate
 
@@ -225,25 +220,11 @@ flowchart LR
     end
 ```
 
-## 🌐 Introduction
-
-The **Interoperability Village** answers a critical need in cybersecurity: **a persistent, neutral, and flexible environment to test and validate interoperability** between diverse tools and frameworks.
-
-In an era of increasingly complex security ecosystems, no single tool can stand alone. **Interoperability is essential**—and yet testing often happens in isolation, constrained by proprietary infrastructure and limited collaboration.
-
-This project breaks down those silos.
-
----
 
 
 
 
 ---
-
-
-
-
-
 
 ## 🧪 Plug-and-Play Testing
 
@@ -251,13 +232,5 @@ This project breaks down those silos.
 - ⏱️ Quick spin-up/tear-down cycles  
 - 🧬 Persistent test states for iterative development  
 - ☁️ Deploy anywhere: home lab, cloud, enterprise  
-
-
-## 🔗 MeshCentral Resources
-
-- [MeshCentral Downloads](https://meshcentral.com/downloads.html)  
-- [MeshCentral GitHub](https://github.com/Ylianst/MeshCentral)  
-
-
 
 
