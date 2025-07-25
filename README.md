@@ -1,4 +1,4 @@
-<div align="left">
+<div align="center">
   <img src="artwork/Village-campfire.png" alt="Village" width="40%">
 </div>
 
@@ -66,8 +66,6 @@ The **Interoperability Village (IoV)** is a sub-project of the [Open Cybersecuri
 Each participant connects through a **Headscale-powered decentralized Tailscale network**, enabling seamless and secure Layer 3 connectivity across disparate environments without needing to expose public IPs or configure firewalls.
 
 ## 🏡 Architecture: "The Village"
-
-
 ### 🧱 Neighborhoods & Huts
 
 - A **Neighborhood** is your logical domain (lab, subnet, enclave).  
@@ -84,9 +82,9 @@ We've had excellent results using:
 - **Raspberry Pi 5** (16GB RAM) with NVMe SSD + 5TB SATA  
 - **Docker** for container orchestration  
 - **Ansible** for provisioning  
-- **MeshCentral** for remote control and central coordination  
 
-### Supported Frameworks
+
+### Deplopyed Frameworks
 
 - [MISP](https://www.misp-project.org/)  
 - [OpenCTI](https://www.opencti.io/)  
@@ -100,7 +98,7 @@ We've had excellent results using:
 
 ### ✅ Key Components
 
-- **Headscale**: Self-hosted coordination server for WireGuard-based Tailscale nodes. Replaces MeshCentral.
+- **Headscale**: Self-hosted coordination server for WireGuard-based Tailscale nodes.
 - **Neighborhood**: A logically grouped set of Huts managed by a participant or organization.
 - **Hut**: A single-purpose VM, container, or node running an open cybersecurity platform or tool.
 
