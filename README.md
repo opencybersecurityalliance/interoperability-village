@@ -28,6 +28,8 @@ The Interoperability Village is a federated ecosystem of virtual test labs—cal
 ---
 
 The **Interoperability Village (IoV)** is a sub-project of the [Open Cybersecurity Alliance (OCA)](https://opencybersecurityalliance.org/), under the **Cyber Automation Sub-Project (CASP). 
+Update: March 10th, 2026 -  OASIS is transitioning all OCA Projects to a new format designated as "Open Cybersecurity Alliance Community".  
+The draft charter can be found here: https://github.com/opencybersecurityalliance/oasis-open-project/blob/main/oca-community-governance.md
 
 
 
@@ -84,7 +86,7 @@ We've had excellent results using:
 - **Raspberry Pi 5** (16GB RAM) with NVMe SSD + 5TB SATA  
 - **Docker** for container orchestration  
 - **Ansible** for provisioning  
-- **MeshCentral** for remote control and central coordination  
+ 
 
 ### Supported Frameworks
 
