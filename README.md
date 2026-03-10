@@ -84,7 +84,7 @@ We've had excellent results using:
 - **Raspberry Pi 5** (16GB RAM) with NVMe SSD + 5TB SATA  
 - **Docker** for container orchestration  
 - **Ansible** for provisioning  
-- **MeshCentral** for remote control and central coordination  
+
 
 ### Supported Frameworks
 
